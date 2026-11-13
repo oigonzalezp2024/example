@@ -23,8 +23,8 @@ import (
 	"google.golang.org/api/option"
 )
 
-const generativeModelName = "gemini-1.5-flash"
-const embeddingModelName = "text-embedding-004"
+const generativeModelName = "gemini-2.5-flash"
+const embeddingModelName = "gemini-embedding-001"
 
 // This is a standard Go HTTP server. Server state is in the ragServer struct.
 // The `main` function connects to the required services (Weaviate and Google
